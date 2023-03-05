@@ -1,0 +1,28 @@
+DIFFERENCE BETWEEN HTTP1.1 & HTTP/2:
+
+HTTP 1.1:-
+
+->HTTP 1.1 is the latest version of Hypertext Transfer Protocol (HTTP)
+->The first version of HTTP was called HTTP/1.1. This version is still in use on the web.
+->HTTP/1.1 loads resources one after the other, so if one resource cannot be loaded, it blocks all the other resources behind it. 
+->HTTP/1.1 uses the plain text so it is not much secure.
+->HTTP/1.1 use the TCP protocol for data transport.
+
+
+HTTP2:-
+
+->HTTP/2 is a major revision of the HTTP network protocol used by the World Wide Web.
+->HTTP/2 has the ability to send multiple requests and also to receive multiple requests.
+->HTTP/2 is able to use a single TCP connection to send multiple streams of data at once so that no one resource blocks any other resource.
+->HTTP/2 uses a binary framing layer.
+->HTTP/2 also use the TCP ptotocol for data transport.
+->HTTP2 is more secure because it uses binary protocol instead of plaintext.
+
+OBJECTS AND ITS INTERNAL REPRESENTATION OF JAVASCRIPT:
+
+-> Object is a standalone entity, with properties and type.
+-> A JavaScript object is a collection of named values having state and behavior.
+    
+    The syntax of creating object using object literal is given below:
+
+    Object={property1:value1.......,propertyn:valuen}
